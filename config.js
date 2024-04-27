@@ -3,8 +3,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio= "" ;  
-global.video= "" ;
+global.audio= "https://www.youtube.com/" ;  
+global.video= "https://www.youtube.com/" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "33775804415";
 
 
 
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "♡︎sᴇɴᴘᴀɪ-ᴀʜ....-ᴀʜ♡︎",
   packname: process.env.PACK_NAME || "🕷Bɪᴛᴄʜ, ɪ´ᴍ sᴘɪᴅᴇʀ!🕷",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "【ʟɢ】sᴇɴᴘᴀɪ✿",
+  ownername:process.env.OWNER_NAME|| "『𝔹𝕒𝕜𝕒 𝕤𝕖𝕟𝕡𝕒𝕚』",
 
 
   errorChat : process.env.ERROR_CHAT || "",
